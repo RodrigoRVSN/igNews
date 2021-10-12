@@ -6,9 +6,13 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "stripe": "stripe-cli/stripe.exe listen  --forward-to localhost:3000/api/webhooks"
   },
   "dependencies": {
+    "@stripe/stripe-js": "^1.19.1",
+    "axios": "^0.23.0",
+    "faunadb": "^4.4.1",
     "next": "11.1.2",
     "next-auth": "^3.29.0",
     "react": "17.0.2",
