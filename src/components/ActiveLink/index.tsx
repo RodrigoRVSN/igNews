@@ -12,9 +12,13 @@ export function ActiveLink({
   activeClassName,
   ...rest
 }: ActiveLinkProps) {
+  const router = useRouter();
   const { asPath } = useRouter();
 
-  const className = asPath === rest.href ? activeClassName : "";
+  const className =
+    asPath.replace(`/${String(router.query.slug)}`, "") === rest.href
+      ? activeClassName
+      : "";
 
   return (
     <>
