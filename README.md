@@ -1,34 +1,76 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# refactoring_react
 
-## Getting Started
+<!--- https://shields.io --->
 
-First, run the development server:
+![GitHub repo size](https://img.shields.io/github/repo-size/rodrigorvsn/refactoring_react?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/rodrigorvsn/refactoring_react?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/rodrigorvsn/refactoring_react?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/rodrigorvsn/refactoring_react?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/rodrigorvsn/refactoring_react?style=for-the-badge)
 
-```bash
-npm run dev
-# or
-yarn dev
+<!--- #################### mudar badges #################### --->
+
+![image](https://user-images.githubusercontent.com/75763403/137056632-98c9f288-838e-4b4f-a652-b5d501c257a7.png)
+![image](https://user-images.githubusercontent.com/75763403/137057431-ea1dcc1d-0c3f-47e4-834a-76bc3d1a86aa.png)
+![image](https://user-images.githubusercontent.com/75763403/137057466-8eec545e-a457-424b-8279-63d7af77f363.png)
+![image](https://user-images.githubusercontent.com/75763403/137057505-8844b95c-4edb-4f93-b4b6-82526f0aefee.png)
+
+<!--- #################### mudar imagem exemplo #################### --->
+
+> Site to buy some food.
+
+## 💻 Prerequisites
+
+- Install LTS Node version.
+<!--- #################### mudar pré-requisitos  ####################--->
+
+## 🛠 Tools used
+
+- React
+- Typescript
+- Class components -> Functional Components
+
+<!--- #################### mudar ferramentas #################### --->
+
+## 🚀 Installing refactoring_react
+
+To use, follow the steps:
+
+```
+- git clone https://github.com/rodrigorvsn/refactoring_react.git
+- yarn || npm install
+- yarn server
+- yarn start || npm start
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<!--- #################### mudar passos #################### --->
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 📫 Contribuiting with refactoring_react
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+To contribue with refactoring_react, follow the steps:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+1. Fork this repository.
+2. Create a branch: `git checkout -b <name_branch>`.
+3. Make the changes and confirm: `git commit -m '<message_commit>'`
+4. Send to original repository: `git push origin <main_branch> / <local>`
+5. Send the pull request.
 
-## Learn More
+Alternatively, see the GitHub documentation at [how to create a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
-To learn more about Next.js, take a look at the following resources:
+## 🤝 Contributors
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Made with ❤️ by:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/rodrigorvsn.png" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+        <sub>
+          <b>Rodrigo Victor</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
