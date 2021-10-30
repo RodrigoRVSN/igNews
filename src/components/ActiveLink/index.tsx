@@ -1,4 +1,4 @@
-import { useRouter } from "next/dist/client/router";
+import { useRouter } from "next/router";
 import Link, { LinkProps } from "next/link";
 import { cloneElement, ReactElement } from "react";
 
@@ -12,13 +12,9 @@ export function ActiveLink({
   activeClassName,
   ...rest
 }: ActiveLinkProps) {
-  const router = useRouter();
   const { asPath } = useRouter();
 
-  const className =
-    asPath.replace(`/${String(router.query.slug)}`, "") === rest.href
-      ? activeClassName
-      : "";
+  const className = asPath === rest.href ? activeClassName : "";
 
   return (
     <>
