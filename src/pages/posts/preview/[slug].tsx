@@ -9,7 +9,7 @@ import { RichText } from "prismic-dom";
 import { getPrismicClient } from "../../../services/prismic";
 import { useEffect } from "react";
 import { useSession } from "next-auth/client";
-import { useRouter } from "next/dist/client/router";
+import { useRouter } from "next/router";
 
 interface PostPreviewProps {
   post: {

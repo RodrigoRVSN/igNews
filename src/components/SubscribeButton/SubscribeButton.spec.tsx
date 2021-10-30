@@ -33,7 +33,7 @@ describe("SubscribeButton component", () => {
     expect(signInMocked).toHaveBeenCalled();
   });
 
-  it("redirect tp posts when user has active subscribe", () => {
+  it("redirect to /posts when user has active subscribe", () => {
     const useRouterMocked = mocked(useRouter);
     const useSessionMocked = mocked(useSession);
     const pushMock = jest.fn();
@@ -57,6 +57,6 @@ describe("SubscribeButton component", () => {
 
     fireEvent.click(subscribeButton);
 
-    expect(pushMock).toHaveBeenCalled();
+    expect(pushMock).toHaveBeenCalledWith("/posts");
   });
 });

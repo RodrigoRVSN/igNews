@@ -32,6 +32,7 @@ ___
 - Fauna DB 
 - Stripe ($)
 - Prismic CMS
+- Jest (tests)
 
 <!--- #################### mudar ferramentas #################### --->
 ___
